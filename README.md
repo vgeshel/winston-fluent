@@ -25,7 +25,7 @@ A fluent transport for [winston][0].
   // Requiring `winston-fluent` will expose 
   // `winston.transports.Fluent`
   //
-  require('winston-syslog').Fluent;
+  require('winston-fluent').Fluent;
   
   winston.add(winston.transports.Fluent, options);
 ```
